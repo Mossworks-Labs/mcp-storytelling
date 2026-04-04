@@ -1,4 +1,7 @@
 FROM node:22-alpine AS builder
+LABEL org.opencontainers.image.source="https://github.com/VibeSmiths/mcp-storytelling" \
+      org.opencontainers.image.description="MCP server: storytelling" \
+      org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app
 COPY package.json tsconfig.json ./
