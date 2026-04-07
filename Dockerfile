@@ -12,6 +12,10 @@ RUN npm run build
 
 FROM node:22-alpine AS runtime
 
+LABEL org.opencontainers.image.source="https://github.com/VibeSmiths/mcp-storytelling"
+LABEL org.opencontainers.image.description="MCP server for storytelling tools"
+LABEL org.opencontainers.image.licenses="MIT"
+
 WORKDIR /app
 COPY package.json ./
 RUN npm install --omit=dev
