@@ -2,7 +2,7 @@
 
 MCP server for writing craft, narrative structure, and author perspectives.
 
-Part of the [CRAFT](https://github.com/VibeSmiths/VideoIdeas) content studio.
+Part of the [CRAFT](https://github.com/Mossworks-Labs/craft) content studio.
 
 ## Tools
 
